@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Portfolio</title>
+   
+<body>
+    <header>
+        <h1>Photography Portfolio</h1>
+    </header>
+    <div class="filters">
+        <button onclick="filterGallery('all')">All</button>
+        <button onclick="filterGallery('landscapes')">Landscapes</button>
+        <button onclick="filterGallery('portraits')">Portraits</button>
+        <button onclick="filterGallery('wildlife')">Wildlife</button>
+    </div>
+    <main>
+        <div class="gallery">
+            <figure data-category="landscapes">
+                <img src="landscape1.jpg" alt="Mountain Landscape">
+                <figcaption>Mountain Landscape</figcaption>
+            </figure>
+            <figure data-category="landscapes">
+                <img src="landscape2.jpg" alt="Beach Sunset">
+                <figcaption>Beach Sunset</figcaption>
+            </figure>
+            <figure data-category="portraits">
+                <img src="portrait1.jpg" alt="Smiling Person">
+                <figcaption>Smiling Person</figcaption>
+            </figure>
+            <figure data-category="portraits">
+                <img src="portrait2.jpg" alt="Close-up Portrait">
+                <figcaption>Close-up Portrait</figcaption>
+            </figure>
+            <figure data-category="wildlife">
+                <img src="wildlife1.jpg" alt="Lion in the Wild">
+                <figcaption>Lion in the Wild</figcaption>
+            </figure>
+            <figure data-category="wildlife">
+                <img src="wildlife2.jpg" alt="Bird in Flight">
+                <figcaption>Bird in Flight</figcaption>
+            </figure>
+        </div>
+    </main>
+</body>
+</html>

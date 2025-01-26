@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia Game</title>
+   
+</head>
+<body>
+
+    <div class="game-container">
+        <div class="score">Score: <span id="score">0</span></div>
+        <div class="timer">Time left: <span id="timer">10</span> seconds</div>
+        
+        <div class="question" id="question">Loading...</div>
+        
+        <ul class="answers" id="answers">
+            <!-- Answer options will be dynamically inserted here -->
+        </ul>
+        
+        <button class="button" id="submitBtn" onclick="submitAnswer()">Submit Answer</button>
+    </div>
+
+</body>
+</html>
